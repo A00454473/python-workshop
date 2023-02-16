@@ -1,7 +1,7 @@
 import streamlit as st
 from joblib import load
 
-st.title("Deploying the model")
+st.title("Iris prediction")
 LABELS = ['setosa', 'versicolor', 'virginica']
 
 clf = load("DT.joblib")
